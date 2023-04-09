@@ -8,6 +8,9 @@ var dotenv_1 = __importDefault(require("dotenv"));
 dotenv_1.default.config();
 var PORT = process.env.PORT || 3001;
 var app = express_1.default();
+app.get('/', function (req, res) {
+    res.status(200).send('express backend server');
+});
 app.listen(PORT, function () {
     console.log('Express backend server running on port:', PORT);
 });
