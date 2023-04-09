@@ -13,7 +13,9 @@
     "start": "node build/index.js"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.13",
     "@types/express": "^4.17.17",
+    "@types/morgan": "^1.9.4",
     "concurrently": "^8.0.1",
     "nodemon": "^2.0.22"
   },
@@ -23,6 +25,7 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "helmet": "^6.1.1",
+    "morgan": "^1.10.0",
     "typescript": "^5.0.4"
   }
 }
