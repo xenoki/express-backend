@@ -1,5 +1,6 @@
 FROM node:18-alpine
 WORKDIR /express-backend
 COPY . .
+RUN yarn tsc
 RUN yarn install --production
-CMD ["tsc --build", "node", "./build/index.js"]
+CMD [ "node", "./build/index.js"]
