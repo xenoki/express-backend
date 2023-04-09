@@ -1,0 +1,9 @@
+{
+  "name": "express-backend",
+  "version": "1.0.0",
+  "description": "Express Backend Testing Server",
+  "main": "build/index.js",
+  "repository": "https://github.com/xenoki/express-backend.git",
+  "author": "Hung Quach",
+  "license": "MIT"
+}
