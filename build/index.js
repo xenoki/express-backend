@@ -9,7 +9,7 @@ dotenv_1.default.config();
 var PORT = process.env.PORT || 3001;
 var app = express_1.default();
 app.get('/', function (req, res) {
-    res.status(200).send('express backend server');
+    res.status(200).send({ data: 'hello world' });
 });
 app.listen(PORT, function () {
     console.log('Express backend server running on port:', PORT);
